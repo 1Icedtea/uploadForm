@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Image Table :)</title>
+  <title>Image Table</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">:
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -55,11 +55,11 @@
                  echo '</table';
             } else {
                 echo "<h1>No record</h1>";  
-                echo "<a class='button' href='./index.html'>Home</a>";
             }
         }
     ?>
   </section>
+  <a href="./index.php" class="button" >Home</a>
 
 
 <!-- End Document

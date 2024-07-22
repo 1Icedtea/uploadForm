@@ -1,18 +1,18 @@
-.container {
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 90vh;
-    border: dotted 1px black;
+    /* border: dotted 1px black; */
 }
 
-form {
+  form {
     display: flex;
     flex-direction: column;
 }
 
-input[type="file"]::file-selector-button {
+  input[type="file"]::file-selector-button {
     border-radius: 4px;
     padding: 0 16px;
     height: 40px;
@@ -24,7 +24,7 @@ input[type="file"]::file-selector-button {
     transition: background-color 200ms;
   }
 
-input[type="file"] {
+  input[type="file"] {
     height: 40px;
     position: relative;
   }
@@ -34,7 +34,7 @@ input[type="file"] {
     color: transparent;
   }
 
-input[type="file"]::before {
+  input[type="file"]::before {
     position: absolute;
     pointer-events: none;
     top: 10px;

@@ -35,7 +35,7 @@
     }
     ?>
     <div class="buttonContainer">
-        <a href="./index.html" class="button"> Home </a>
+        <a href="./index.php" class="button"> Home </a>
         <a href="./imageTable.php" class="button"> Image Table </a>
     </div>
   </section>
